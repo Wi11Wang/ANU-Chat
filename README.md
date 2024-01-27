@@ -8,16 +8,12 @@ It features authentication, post sharing, reactions, following and private messa
 - Authenticate, Post & Interact: Users can signup, login, and then create posts, react to them, even engage in private messaging
 - Real-Time Updates: Using Firebase's real-time database for instantaneous updates and interactions
 
-| Function | Snapshot |
-|:----------:|:----------:|
-| Splash Screen    | ![!\[alt text\](Isolated.png)](demos/imgs/splash_screen.png) |
-| Login            | ![!\[alt text\](Isolated.png)](demos/imgs/login.png) |
-| Posts Feed       | ![!\[alt text\](Isolated.png)](demos/imgs/posts.png) |
-| Comment          | ![!\[alt text\](Isolated.png)](demos/imgs/comment.png) |
-| Private Messages | ![!\[alt text\](Isolated.png)](demos/imgs/private_messages.png) |
-| Chatting         | ![!\[alt text\](Isolated.png)](demos/imgs/private_messaging.png) |
-| Search           | ![!\[alt text\](Isolated.png)](demos/imgs/search.png) |
-| Profile          | ![!\[alt text\](Isolated.png)](demos/imgs/me.png) |
+| Function         | Snapshot                                                 | Function         | Snapshot                                                  |
+|:----------------:|:--------------------------------------------------------:|:----------------:|:---------------------------------------------------------:|
+| Splash Screen    | <img src="demos/imgs/splash_screen.png" height="380">    | Login            | <img src="demos/imgs/login.png" height="380">             |
+| Posts Feed       | <img src="demos/imgs/posts.png" height="380">            | Comment          | <img src="demos/imgs/comment.png" height="380">           |
+| Private Messages | <img src="demos/imgs/private_messages.png" height="380"> | Chatting         | <img src="demos/imgs/private_messaging.png" height="380"> |
+| Search           | <img src="demos/imgs/search.png" height="380">           | Profile          | <img src="demos/imgs/me.png" height="380">                |
 
 Checkout videos [here](demos/vids).
 
