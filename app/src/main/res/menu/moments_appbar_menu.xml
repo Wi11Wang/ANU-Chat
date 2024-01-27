@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fragment_moments_appbar_filter"
+        android:icon="@drawable/ic_filter"
+        android:title="@string/filter"
+        android:contentDescription="@string/filter"
+        android:iconTint="@color/black"
+        app:showAsAction="always" >
+        <menu>
+        <item
+            android:id="@+id/moment_select_menu_everyone"
+            android:icon="@drawable/ic_public"
+            android:title="All Moments"
+            app:showAsAction="always|withText" />
+        <item
+            android:id="@+id/moment_select_menu_friends"
+            android:icon="@drawable/ic_friends"
+            android:title="Friend Moments"
+            app:showAsAction="always|withText"
+            />
+        <item
+            android:id="@+id/moment_select_menu_private"
+            android:icon="@drawable/ic_lock"
+            android:title="Private Moments"
+            app:showAsAction="always|withText"
+            />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/fragment_moments_appbar_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"
+        android:contentDescription="@string/search"
+        android:iconTint="@color/black"
+        app:showAsAction="always"/>
+</menu>

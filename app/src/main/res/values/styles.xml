@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="roundedImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+
+    <style name="circleImageView" >
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">100%</item>
+    </style>
+
+    <style name="floatingActionButton" parent="">
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorOnSecondary">@color/shadow_grey</item>
+        <item name="colorOnSurface">@color/black</item>
+    </style>
+</resources>

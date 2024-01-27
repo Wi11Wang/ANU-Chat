@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="wang.bogong.anuchat.RegisterActivities.RegisterActivity"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:src="@drawable/login_page_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:id="@+id/imageView" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        android:id="@+id/activity_login_uidTextInputLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:prefixText="u"
+        app:suffixText="\@anu.edu.au"
+        app:errorEnabled="true"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:hintTextColor="@color/anu_logo_yellow"
+        app:boxStrokeColor="@color/sandstone_yellow"
+        android:layout_marginTop="24dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold_file"
+            android:inputType="number"
+            android:textSize="16sp"
+            android:maxLines="1"
+            android:hint="Your ANU uid"
+            android:id="@+id/activity_login_uidEditText" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        app:passwordToggleEnabled="true"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/activity_login_passwordTextInputLayout"
+        app:boxStrokeColor="@color/sandstone_yellow"
+        app:hintTextColor="@color/anu_logo_yellow"
+        app:layout_constraintTop_toBottomOf="@+id/activity_login_uidTextInputLayout"
+        android:layout_marginTop="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/activity_login_passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textSize="16sp"
+            android:textCursorDrawable="@drawable/custom_cursor_yellow"
+            android:fontFamily="@font/poppins_semibold_file" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:fitsSystemWindows="true"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:text="LOGIN"
+        app:cornerRadius="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/activity_login_passwordTextInputLayout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/activity_login_loginButton"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:selectableItemBackground"
+        android:text="Not registered?\nJoin us"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="@+id/activity_login_loginButton"
+        app:layout_constraintEnd_toEndOf="@+id/activity_login_loginButton"
+        app:layout_constraintTop_toBottomOf="@+id/activity_login_loginButton"
+        app:layout_constraintBottom_toTopOf="@+id/activity_login_forgetPasswordTextView"
+        android:id="@+id/activity_login_not_registered" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot password?"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/activity_login_loginButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/activity_login_forgetPasswordTextView"
+        android:background="?android:selectableItemBackground"
+        app:layout_constraintVertical_bias="0.70" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_login_loginProgressBar"
+        app:layout_constraintTop_toTopOf="@+id/activity_login_loginButton"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_login_loginButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="gone" />
+    <!--    <EditText-->
+<!--        android:id="@+id/email"-->
+<!--        android:layout_width="314dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:hint="ANU Email"-->
+<!--        android:padding="10dp" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/password"-->
+<!--        android:layout_width="311dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:hint="Password"-->
+<!--        android:padding="10dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/login"-->
+<!--        android:layout_width="171dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="15sp"-->
+<!--        android:backgroundTint="@color/anu_yellow_100"-->
+<!--        android:padding="10dp"-->
+<!--        android:text="LOGIN" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/forgetPassword"-->
+<!--        android:layout_width="172dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Forgot password" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

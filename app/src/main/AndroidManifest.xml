@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wang.bogong.anuchat">
+    <!-- Asking permission for internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndroidProject">
+        <activity
+            android:name="wang.bogong.anuchat.UserDisplayActivity"
+            android:exported="true" />
+        <activity
+            android:name="wang.bogong.anuchat.InformationActivity"
+            android:exported="true" />
+        <activity
+            android:name="wang.bogong.anuchat.ChatDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name="wang.bogong.anuchat.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="wang.bogong.anuchat.MomentsActivities.MomentDetailActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="wang.bogong.anuchat.RegisterActivities.VerificationActivity"
+            android:exported="true" />
+        <activity
+            android:name="wang.bogong.anuchat.MomentsActivities.WriteMomentActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="wang.bogong.anuchat.SearchActivity"
+            android:exported="true" />
+        <activity
+            android:name="wang.bogong.anuchat.StartActivity"
+            android:exported="true">
+        </activity>
+        <activity android:name="wang.bogong.anuchat.LoginActivities.LoginActivity" />
+        <activity android:name="wang.bogong.anuchat.RegisterActivities.RegisterActivity" />
+        <activity android:name="wang.bogong.anuchat.RegisterActivities.SetProfileActivity" />
+        <activity android:name="wang.bogong.anuchat.MainActivity" />
+        <activity android:name="wang.bogong.anuchat.SettingActivity" />
+        <activity android:name="wang.bogong.anuchat.BotConfigActivity" />
+        <activity
+            android:name="wang.bogong.anuchat.LoginActivities.ForgotPasswordActivity"
+            android:usesCleartextTraffic="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,279 @@
+
+<merge xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--Edit Profile Photo Section-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="20dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/edit_profile_avatarShapeableImageView"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/roundedImageView" />
+
+            <Button
+                android:id="@+id/EditProfilePhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edit_profile_avatarShapeableImageView"
+                android:layout_centerHorizontal="true"
+                android:backgroundTint="@color/white"
+                android:text="Edit Photo"
+                android:textColor="@color/anu_logo_yellow"
+                android:textSize="15dp" />
+
+            <!-- Edit NickName Section-->
+            <RelativeLayout
+                android:id="@+id/EditNickname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/EditProfilePhoto"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="45dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    app:hintTextColor="@color/anu_logo_yellow"
+                    app:boxStrokeColor="@color/sandstone_yellow">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/EditNicknameHere"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:hint="Nick name" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </RelativeLayout>
+
+            <!-- Edit Gender Section-->
+            <RelativeLayout
+                android:id="@+id/EditGender"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/EditAge"
+                android:layout_marginTop="10dp">
+
+                <Spinner
+                    android:id="@+id/SelectGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="16dp"
+                    android:entries="@array/Gender"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:minHeight="48dp" />
+
+            </RelativeLayout>
+
+            <!-- Edit FullName Section-->
+            <RelativeLayout
+                android:id="@+id/EditFullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/EditNickname"
+                android:layout_marginTop="10dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    app:hintTextColor="@color/anu_logo_yellow"
+                    app:boxStrokeColor="@color/sandstone_yellow"
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/EditFullNameHere"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:hint="Full name"  />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </RelativeLayout>
+
+            <!-- Edit Age Section-->
+            <RelativeLayout
+                android:id="@+id/EditAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/EditFullName"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    app:hintTextColor="@color/anu_logo_yellow"
+                    app:boxStrokeColor="@color/sandstone_yellow"
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/InputAge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="Age" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+<!--                <Spinner-->
+<!--                    android:id="@+id/SelectAge"-->
+<!--                    android:layout_width="152dp"-->
+<!--                    android:layout_height="48dp"-->
+<!--                    android:layout_marginTop="16dp"-->
+<!--                    android:entries="@array/Age"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.5"-->
+<!--                    app:layout_constraintStart_toStartOf="parent" />-->
+
+            </RelativeLayout>
+
+            <!-- Edit College Section-->
+        <RelativeLayout
+            android:id="@+id/EditCollege"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/EditGender"
+            android:layout_marginTop="10dp">
+
+            <Spinner
+                android:id="@+id/SelectCollege"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:entries="@array/College"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+            </RelativeLayout>
+
+            <!-- Edit Graduating year Section-->
+
+            <RelativeLayout
+                android:id="@+id/EditGraduatingYr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/EditCollege"
+                android:layout_marginTop="10dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    app:hintTextColor="@color/anu_logo_yellow"
+                    app:boxStrokeColor="@color/sandstone_yellow">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Graduation Year"
+                        android:inputType="number"
+                        android:id="@+id/EditGradYrHere" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <!--                <Spinner-->
+                <!--                    android:id="@+id/SelectGraduatingYr"-->
+                <!--                    android:layout_width="152dp"-->
+                <!--                    android:layout_height="48dp"-->
+                <!--                    android:layout_centerHorizontal="true"-->
+                <!--                    android:layout_marginTop="16dp"-->
+                <!--                    android:entries="@array/GraduationYear"-->
+                <!--                    app:layout_constraintEnd_toEndOf="parent"-->
+                <!--                    app:layout_constraintHorizontal_bias="0.5"-->
+                <!--                    app:layout_constraintStart_toStartOf="parent" />-->
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/privateInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/EditGraduatingYr"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:text="Private Information"
+                android:textColor="@color/default_icon_grey"
+                android:textSize="20dp" />
+
+            <!-- Display UserEmail-->
+            <RelativeLayout
+                android:id="@+id/DisplayUserID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/privateInfo"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/userID_header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:inputType="number"
+                    android:text="  My userID:"
+                    android:textSize="15dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/userID_header"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true">
+
+                    <TextView
+                        android:id="@+id/DisplayID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:hint="xxxxxxx"
+                        android:textColor="@color/anu_logo_yellow"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/save_setting_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/DisplayUserID"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:text="Save!"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:cornerRadius="20dp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</merge>

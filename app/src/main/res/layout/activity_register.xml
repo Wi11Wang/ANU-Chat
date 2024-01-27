@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/registerPage_parentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="wang.bogong.anuchat.RegisterActivities.RegisterActivity"
+        android:outlineProvider="bounds">
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/registerPage_emailLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        app:helperTextEnabled="true"
+        app:errorEnabled="true"
+        app:prefixText="u"
+        app:suffixText="\@anu.edu.au"
+        app:boxStrokeColor="@color/sandstone_yellow"
+        app:hintTextColor="@color/anu_logo_yellow"
+        app:layout_constraintTop_toBottomOf="@+id/registerPage_register_welcome_image"
+        android:layout_marginTop="4dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/registerPage_registerEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/uid_email"
+            android:textSize="16sp"
+            android:maxLines="1"
+            android:textCursorDrawable="@drawable/custom_cursor_yellow"
+            android:fontFamily="@font/poppins_semibold_file" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        app:passwordToggleEnabled="true"
+        app:layout_constraintTop_toBottomOf="@+id/registerPage_emailLayout"
+        android:layout_marginTop="8dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/registerPage_registerPasswordLayout"
+        app:helperTextEnabled="true"
+        app:errorEnabled="true"
+        app:boxStrokeColor="@color/sandstone_yellow"
+        app:hintTextColor="@color/anu_logo_yellow">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/registerPage_registerPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textSize="16sp"
+            android:textCursorDrawable="@drawable/custom_cursor_yellow"
+            android:fontFamily="@font/poppins_semibold_file" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/registerPage_registerPasswordLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:passwordToggleEnabled="true"
+        android:id="@+id/registerPage_registerPasswordConfirmLayout"
+        android:layout_marginTop="8dp"
+        app:boxStrokeColor="@color/sandstone_yellow"
+        app:hintTextColor="@color/anu_logo_yellow">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/registerPage_registerPasswordConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            android:textSize="16sp"
+            android:textCursorDrawable="@drawable/custom_cursor_yellow"
+            android:fontFamily="@font/poppins_semibold_file" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:text="@string/register"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:id="@+id/registerPage_registerInRegisterPageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:cornerRadius="20dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/registerPage_registerPasswordConfirmLayout"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/registerPage_registerWaitingProgressBar"
+        android:backgroundTint="@color/anu_logo_yellow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/registerPage_registerInRegisterPageButton"
+        app:layout_constraintBottom_toBottomOf="@+id/registerPage_registerInRegisterPageButton"
+        app:layout_constraintVertical_bias="0.9"
+        android:visibility="invisible"
+        android:indeterminateTint="@color/anu_logo_yellow"
+        android:layout_marginTop="6dp" />
+
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="206dp"
+            app:srcCompat="@drawable/register_page_image"
+            android:id="@+id/registerPage_register_welcome_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.428"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp" />
+
+    <TextView
+        android:text="Already have account?\n Sign in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/registerPage_signIn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerPage_registerInRegisterPageButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textAlignment="center"
+        android:background="?android:selectableItemBackground"
+        android:textSize="14sp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

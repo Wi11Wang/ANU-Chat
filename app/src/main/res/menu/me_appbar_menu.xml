@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fragment_me_appbar_bot"
+        android:title="Bot Page"
+        android:contentDescription="Bot page"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/fragment_me_appbar_setting"
+        android:icon="@drawable/ic_settings_alt"
+        android:title="Account Settings"
+        android:contentDescription="Settings"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/fragment_me_appbar_logout"
+        android:title="LogOut"
+        android:contentDescription="Settings"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.27239583333333334" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/drawable/ic_launcher_background.xml" value="0.27239583333333334" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/layout/activity_check_verification.xml" value="0.24298245614035088" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/layout/activity_empty_for_testing.xml" value="0.22282608695652173" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/layout/activity_picture_upload.xml" value="0.2" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/layout/activity_post.xml" value="0.20652173913043478" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/layout/activity_register.xml" value="0.3" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/layout/activity_search.xml" value="0.20652173913043478" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/layout/activity_splash.xml" value="0.25087719298245614" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/layout/activity_start.xml" value="0.268" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/layout/activity_test.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/layout/activity_write_moment.xml" value="0.11696658097686376" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/layout/comment_view.xml" value="0.11696658097686376" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/layout/edit_profile.xml" value="0.1" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/layout/fragment_contacts.xml" value="0.2" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/layout/fragment_home.xml" value="0.19021739130434784" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/layout/fragment_me.xml" value="0.24298245614035088" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/layout/fragment_moments.xml" value="0.2013157894736842" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/layout/initialize_bio.xml" value="0.3" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/layout/initialize_bio_one.xml" value="0.25407608695652173" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/layout/initialize_bio_two.xml" value="0.268" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/layout/intialize_bio_one.xml" value="0.2" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/layout/user_profile.xml" value="0.268" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/menu/bottom_menu.xml" value="0.22149122807017543" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.4" />
+        <entry key="..\:/Users/katyl/Desktop/social-network-app/app/src/main/res/xml/file_path.xml" value="0.1" />
+        <entry key="..\:/social-network-app/app/src/main/res/layout/activity_chat_detail.xml" value="0.161231884057971" />
+        <entry key="..\:/social-network-app/app/src/main/res/layout/activity_information.xml" value="0.28541666666666665" />
+        <entry key="..\:/social-network-app/app/src/main/res/layout/activity_user_display.xml" value="0.27447916666666666" />
+        <entry key="..\:/social-network-app/app/src/main/res/layout/edit_profile.xml" value="0.27447916666666666" />
+        <entry key="..\:/social-network-app/app/src/main/res/layout/fragment_chats.xml" value="0.15217391304347827" />
+        <entry key="..\:/social-network-app/app/src/main/res/layout/fragment_contacts.xml" value="0.28541666666666665" />
+        <entry key="..\:/social-network-app/app/src/main/res/layout/fragment_home.xml" value="0.27447916666666666" />
+        <entry key="..\:/social-network-app/app/src/main/res/layout/fragment_me.xml" value="0.25364583333333335" />
+        <entry key="..\:/social-network-app/app/src/main/res/layout/initialize_bio_one.xml" value="0.15670289855072464" />
+        <entry key="..\:/social-network-app/app/src/main/res/layout/initialize_bio_two.xml" value="0.27447916666666666" />
+        <entry key="..\:/social-network-app/app/src/main/res/layout/sample_chat_list.xml" value="0.25364583333333335" />
+        <entry key="..\:/social-network-app/app/src/main/res/layout/sample_contact_list.xml" value="0.28541666666666665" />
+        <entry key="app/src/main/res/drawable-anydpi/ic_image.xml" value="0.2984375" />
+        <entry key="app/src/main/res/drawable-anydpi/ic_repost.xml" value="0.19895833333333332" />
+        <entry key="app/src/main/res/drawable/button_shape.xml" value="0.2984375" />
+        <entry key="app/src/main/res/drawable/circle.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/drawable/custom_cursor_mist_blue.xml" value="0.2984375" />
+        <entry key="app/src/main/res/drawable/custom_cursor_yellow.xml" value="0.2984375" />
+        <entry key="app/src/main/res/drawable/gradient.xml" value="0.2984375" />
+        <entry key="app/src/main/res/drawable/ic_search_black_24dp.xml" value="0.2984375" />
+        <entry key="app/src/main/res/drawable/ic_setting.xml" value="0.2984375" />
+        <entry key="app/src/main/res/drawable/post_cardview.xml" value="0.2984375" />
+        <entry key="app/src/main/res/drawable/rounded_imageview.xml" value="0.19895833333333332" />
+        <entry key="app/src/main/res/drawable/rounded_outline.xml" value="0.19895833333333332" />
+        <entry key="app/src/main/res/font/futura_bold.xml" value="0.3076923076923077" />
+        <entry key="app/src/main/res/font/poppins_semibold.xml" value="0.16145833333333334" />
+        <entry key="app/src/main/res/font/roboto_bold.xml" value="0.3076923076923077" />
+        <entry key="app/src/main/res/layout/activity_chat_detail.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_check_verification.xml" value="0.3440467440882344" />
+        <entry key="app/src/main/res/layout/activity_empty_for_testing.xml" value="0.13240740740740742" />
+        <entry key="app/src/main/res/layout/activity_fire_base_usage_test.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_forgot_password.xml" value="0.24853801169590642" />
+        <entry key="app/src/main/res/layout/activity_information.xml" value="0.24748858447488584" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.2786885245901639" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/activity_moment_detail.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_post.xml" value="0.19907407407407407" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_search.xml" value="0.17307692307692307" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.3811129848229342" />
+        <entry key="app/src/main/res/layout/activity_start.xml" value="0.11" />
+        <entry key="app/src/main/res/layout/activity_test_bottom_navigation.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_test_navigation.xml" value="0.13422131147540983" />
+        <entry key="app/src/main/res/layout/activity_test_send_verification_email.xml" value="0.13240740740740742" />
+        <entry key="app/src/main/res/layout/activity_user_display.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_verification.xml" value="0.26296296296296295" />
+        <entry key="app/src/main/res/layout/activity_verification2.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_write_moment.xml" value="0.55" />
+        <entry key="app/src/main/res/layout/comment_view.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/edit_profile.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragmenet_thoughts.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_chats.xml" value="0.13489583333333333" />
+        <entry key="app/src/main/res/layout/fragment_contact.xml" value="0.14492753623188406" />
+        <entry key="app/src/main/res/layout/fragment_contacts.xml" value="0.33384615384615385" />
+        <entry key="app/src/main/res/layout/fragment_me.xml" value="0.25255102040816324" />
+        <entry key="app/src/main/res/layout/fragment_moments.xml" value="0.32409972299168976" />
+        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.24748858447488584" />
+        <entry key="app/src/main/res/layout/fragment_post.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_setting.xml" value="0.1393110435663627" />
+        <entry key="app/src/main/res/layout/fragment_thoughts_search.xml" value="0.1693840579710145" />
+        <entry key="app/src/main/res/layout/initialize_bio_one.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/initialize_bio_two.xml" value="0.24748858447488584" />
+        <entry key="app/src/main/res/layout/moment_cardview.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/post_cardview.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/sample_chat_list.xml" value="0.2212962962962963" />
+        <entry key="app/src/main/res/layout/sample_contact_list.xml" value="0.2212962962962963" />
+        <entry key="app/src/main/res/menu/bottom_menu.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/menu/fragment_me_menu.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/menu/moments_appbar_menu.xml" value="0.14895833333333333" />
+        <entry key="app/src/main/res/menu/thoughts_app_bar.xml" value="0.28229166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" location="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.11" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

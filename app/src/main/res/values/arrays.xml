@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Gender">
+        <item>Others</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Transgender</item>
+    </string-array>
+    <string-array name="GraduationYear">
+        <item>Select Graduation Year</item>
+        <item>2030</item>
+        <item>2029</item>
+        <item>2028</item>
+        <item>2027</item>
+        <item>2026</item>
+        <item>2025</item>
+        <item>2024</item>
+        <item>2023</item>
+        <item>2022</item>
+    </string-array>
+    <string-array name="College">
+        <item>Select College</item>
+        <item>College of Arts and Social Sciences</item>
+        <item>College of Asia and the Pacific</item>
+        <item>College of Business and Economics</item>
+        <item>College of Engineering and Computer Science</item>
+        <item>College of Health and Medicine</item>
+        <item>College of Law</item>
+        <item>College of Science</item>
+    </string-array>
+    <string-array name="Age">
+        <item>Select Age</item>
+        <item>better not to say</item>
+        <item>35</item>
+        <item>34</item>
+        <item>33</item>
+        <item>32</item>
+        <item>31</item>
+        <item>30</item>
+        <item>29</item>
+        <item>28</item>
+        <item>27</item>
+        <item>26</item>
+        <item>25</item>
+        <item>24</item>
+        <item>23</item>
+        <item>22</item>
+        <item>21</item>
+        <item>20</item>
+        <item>19</item>
+        <item>18</item>
+        <item>17</item>
+        <item>16</item>
+        <item>others</item>
+    </string-array>
+</resources>

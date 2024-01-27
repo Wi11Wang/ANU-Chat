@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="information_avatar" type="id" />
+    <item name="activity_login_uidEditText" type="id" />
+    <item name="activity_login_uidTextInputLayout" type="id" />
+    <item name="activity_login_passwordEditText" type="id" />
+    <item name="activity_login_loginButton" type="id" />
+    <item name="activity_login_loginProgressBar" type="id" />
+    <item name="activity_login_forgetPasswordTextView" type="id" />
+</resources>
